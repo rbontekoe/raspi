@@ -1,0 +1,17 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}This is an example page{% endblock %}
+
+{% block navbar %}
+<!-- Nav -->
+<img src="http://www.appligate.nl/images/foto.jpg" width="100%">
+  {{nav.mynavbar.render()}}
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  <h1>{{test}}</h1>
+  <p>This is my second Flask application, but the first one where I use Bootstrap. Wow, this is fantastic.</p>
+  <p>The application is running in debug mode, so I can change things that are immediately visible. No need to restart the server!</p>
+  <p>Rob Bontekoe</p>
+</div>
+{% endblock %}
