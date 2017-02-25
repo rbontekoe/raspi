@@ -1,0 +1,21 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}This is an example page{% endblock %}
+
+{% block navbar %}
+<!-- Nav -->
+<img src="http://www.appligate.nl/images/foto.jpg" width="100%">
+  {{nav.mynavbar.render()}}
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  <h2>Air pressure: {{test}}%</h2>
+  <p>This is my second Flask web application, but the first one where I use Flask enabled Bootstrap.</p>
+  <p>My objective was to display environment values collected with the Raspberry SenseHat.</p>
+  <p>My second objective is to learn how to use git.</p>
+  <p>The application is running in a Docker container on my Raspberry Pi 3. You can find the code at <a href="https://github.com/rbontekoe/raspi">https://github.com/rbontekoe/raspi</a>.
+</p>
+  <p>When the application is running in debug mode, I can change things that are immediately visible. No need to restart the server myself!</p>
+  <p>Rob Bontekoe</p>
+</div>
+{% endblock %}
