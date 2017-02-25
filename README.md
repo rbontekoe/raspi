@@ -1,2 +1,2 @@
 # raspi
-Tryout git, raspberry, docker and flask
+Tryout git, raspberry, docker, sense-hat and flask
