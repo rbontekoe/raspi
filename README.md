@@ -1,7 +1,7 @@
 # raspi
 Tryout Git, Raspberry Pi, Docker, Sense-hat and Flask.
 
-I have a RaspberryPi 3 with Docker installed and a container. The container has Flask running and the website displays the air pressure. My objective is to learn Git.
+I have a RaspberryPi 3 with Docker installed and my application running in a container. The container has a Flask enabled website that displays the air pressure, temperature and relative humidity. My objective is to play with Git.
 
 Instructions
 
