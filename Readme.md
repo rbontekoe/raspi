@@ -1,7 +1,7 @@
 # raspi
 Tryout: Git, Raspberry Pi, Docker, Sense-Hat and Flask.
 
-I have a RaspberryPi 3 with Docker installed and my application running in a container. The container has a Flask enabled website that displays temperature, air pression and relative humidity collected from Sense-Hat.
+I have a RaspberryPi 3 with Docker installed and a wew application running in a container. It's a Flask enabled website that displays temperature, air pression and relative humidity collected from Sense-Hat.
 
 Instructions
 
