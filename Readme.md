@@ -1,9 +1,9 @@
-# raspi
+# Raspi
 Tryout: Git, Raspberry Pi, Docker, Sense-Hat and Flask.
 
 I have a RaspberryPi 3 with Docker installed and a web application running in a container. It's a Flask enabled website that displays temperature, air pression and relative humidity collected from Sense-Hat.
 
-Instructions
+##Instructions
 
 1. Install Docker on Raspberry Pi 3
 
@@ -17,7 +17,7 @@ Instructions
 
 6. Load web app in browser: http://raspi2:5005/ - I use my Chromebook to access my Raspberry Pi 3 remote via ssh, otherwise use http://127.0.0.1:5005/
 
-References
+##References
 
 Getting started with docker: http://blog.alexellis.io/getting-started-with-docker-on-raspberry-pi/
 
