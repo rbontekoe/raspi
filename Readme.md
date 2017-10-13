@@ -19,4 +19,5 @@ I have a RaspberryPi 3 with Docker installed and a web application running in a 
 
 ## References
 Getting started with docker: http://blog.alexellis.io/getting-started-with-docker-on-raspberry-pi/
+
 Beginners's guide: http://thisdavej.com/beginners-guide-to-installing-node-js-on-a-raspberry-pi/
